@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #6e6e6e;
+    margin-top: 70px;
+}
+
+.titulo-card {
+    margin-top: 10px;
+}
+
+.input-nuevatarea {
+    width: 30vw;
+}
+
+.boton-agregar {
+    background-color: #4CAF50; 
+    color: white; 
+    border: 1px solid #4CAF50;
+    border-radius: 5%;
+    padding: 8px 32px;
+    transition-duration: 0.4s;
+}
+
+.boton-agregar:hover {
+    background-color: white;
+    color: black;
+}
+
+.datos {
+    margin-top: 30px;
+}
