@@ -35,8 +35,8 @@ function renderList(){
         html += `<div class="row">
                         <div class="col">${value.getId}</div>
                         <div class="col">${value.description}</div>
-                        <div class="col"><input type="checkbox" id="checkIt${value.getId}" onclick="modifyTask(${value.getId})"></div>
-                        <div class="col cursor"><i class="fa-solid fa-x" onclick="deleteTask(${value.getId})"></i></div>
+                        <div class="col"><input type="checkbox" id="checkIt${value.getId}" onclick="modificar(${value.getId})"></div>
+                        <div class="col cursor"><i class="fa-solid fa-x" onclick="borrargit(${value.getId})"></i></div>
                     </div>` 
     })
     actualizarTareas.innerHTML = html
